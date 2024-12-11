@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;  
+}
+
+.game {
+    max-width: 1000px;
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+    
+}
+
+
+.kq {
+  display: grid;
+  grid-template-columns:auto auto auto; 
+  justify-content: center; 
+  align-items: center; 
+  gap: 3px; 
+  width: auto; 
+  height: 100%; 
+}
+
+.kq123 img{
+  width: 65%; 
+  height: 65%; 
+  object-fit: contain;
+}
+
+.kq123 {
+  width: 150px;
+  height: 150px;
+  padding: 5px;
+  background-color: #fff;
+  border: 2px solid #000; 
+}
+
+.button-right {
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #28a745;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #218838;
+}
+
+.cuoc {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  margin-bottom: 20px;
+}
+
+.cuoc6:hover{
+  transform: scale(1.1); 
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); 
+}
+
+.cuoc6 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 150px; 
+  height: 150px; 
+  border: 2px solid #000; 
+  background-color: #fff; 
+  margin: auto; 
+  position: relative; 
+}
+
+.cuoc6 img {
+  width: 65; 
+  height: 65%; 
+  object-fit: contain;
+}
+
+.cuoc6 p {
+  font-size: 18px;
+  font-weight: bold;
+  color: #004d00;
+  margin: 0;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.huongdan {
+  text-align: left;
+}
+
+.footer .button {
+  margin-left: 20px;
+}
+
+.footer p{
+  font-size: 28px;
+  font-weight: bold;
+}
